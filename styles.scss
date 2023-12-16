@@ -1,0 +1,63 @@
+// Variables
+$primary: #bdba35;
+$secondary: #c3c3c3;
+$gray: #ebede2;
+$font-family: "Lato", sans-serif;
+
+
+body {
+  font-family: $font-family;
+}
+
+.container{
+    max-width: 600px;
+}
+
+.bg-primary {
+  background: $primary !important;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-primary:hover {
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.border-primary {
+  border: 1px solid $primary !important;
+}
+
+.add-btn {
+  background-color: $gray;
+  color: $primary;
+  border: 1px solid $gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.input-box {
+  border: none;
+  border-bottom: 1px solid $secondary !important;
+  border-radius: 0 !important;
+}
+
+.input-box:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+  content: none; 
+}
